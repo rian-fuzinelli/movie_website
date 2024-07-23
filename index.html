@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="assets/webfilm-icon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <link rel="stylesheet" href="styles.css">
+  
+  <title>Movie Website</title>
+</head>
+<body>
+  <header>
+    <a href="#" class="logo"><img src="assets/webfilm-logo.png" alt="Logo" style="height: 50px;"></a>
+    <ul class="nav">
+      <li><a href="#"><i class="fa fa-home" aria-hidden="true"></i></a></li>
+      <li><a href="#">Adultos</a></li>
+      <li><a href="#">Infantil</a></li>
+      <li><a href="#">Tendência</a></li>
+      <li><a href="#">Minha Lista</a></li>
+    </ul>
+    <div class="search">
+      <input type="text" placeholder="Procurar">
+      <i class="fa fa-search" aria-hidden="true"></i>
+    </div>
+  </header>
+  <div class="banner">
+    <div class="content the-dark-knight active">
+      <img src="assets/the-dark-knight-title.png" alt="Movie Name" class="movie-title"/>
+      <h4>
+        <span>2008</span><span><i>12+</i></span><span>2h 32min</span><span>Ação</span>
+      </h4>
+      <p>O Coringa, um criminoso brilhante e caótico, inicia uma onda de terror em Gotham, testando os limites da moralidade e do heroísmo de Batman. O vilão força Batman a confrontar suas próprias crenças e questionar até onde está disposto a ir para combater o mal. Ao longo do filme, Harvey Dent também enfrenta uma transformação trágica, tornando-se o vilão Duas-Caras, após um ataque orquestrado pelo palhaço.</p>
+      <div class="button">
+        <a href="#"><i class="fa fa-play" aria-hidden="true"></i> Assistir</a>
+        <a href="#"><i class="fa fa-plus" aria-hidden="true"></i> Minha Lista</a>
+      </div>
+    </div>
+    <div class="content bg-65">
+      <img src="assets/harry potter-title.png" alt="Movie Name" class="movie-title"/>
+      <h4>
+        <span>2001</span><span><i>L</i></span><span>2h 32min</span><span>Fantasia</span>
+      </h4>
+      <p>Harry (Daniel Radcliffe) descobre que é um bruxo e aprende sobre seu passado trágico, onde seus pais foram mortos pelo bruxo das trevas Lord Voldemort, que tentou matá-lo quando bebê, mas o feitiço ricocheteou, deixando-lhe uma cicatriz. Ele é levado ao mundo mágico por Hagrid (Robbie Coltrane), onde faz compras no Beco Diagonal. Em Hogwarts, Harry faz amizade com Hermione Granger (Emma Watson) e Ron Weasley (Rupert Grint), e enfrenta Draco Malfoy (Tom Felton). Durante o ano, eles descobrem que a escola guarda a Pedra Filosofal, que pode fornecer imortalidade.</p>
+      <div class="button">
+        <a href="#"><i class="fa fa-play" aria-hidden="true"></i> Assistir</a>
+        <a href="#"><i class="fa fa-plus" aria-hidden="true"></i> Minha Lista</a>
+      </div>
+    </div>
+    <div class="content the-covenant">
+      <img src="assets/kung fu panda.png" alt="Movie Name" class="movie-title"/>
+      <h4>
+        <span>2008</span><span><i>L</i></span><span>1h 30min</span><span>Animação</span>
+      </h4>
+      <p>Po (dublado por Jack Black) é um panda desajeitado e sonhador que trabalha no restaurante de macarrão de seu pai adotivo, Sr. Ping. Embora Po adore kung fu, ele acredita que nunca será capaz de realizá-lo devido à sua forma física e à falta de treinamento. No entanto, o destino tem outros planos para ele.</p>
+      <div class="button">
+        <a href="#"><i class="fa fa-play" aria-hidden="true"></i> Assistir</a>
+        <a href="#"><i class="fa fa-plus" aria-hidden="true"></i> Minha Lista</a>
+      </div>
+    </div>
+    <div class="content aladdin" onClick="changeBg('aladdin-cover.jpg', 'aladdin');">
+      <img src="assets/the-aladdin-title.png" alt="Movie Name" class="movie-title"/>
+      <h4>
+        <span>2019</span><span><i>10+</i></span><span>2h 09min</span><span>Aventura</span>
+      </h4>
+      <p>Aladdin liberta o gênio da lâmpada e tem seus desejos atendidos. Porém, ele logo descobre que o diabo tem outros planos para a lâmpada - e para a princesa Jasmim.</p>
+      <div class="button">
+        <a href="#"><i class="fa fa-play" aria-hidden="true"></i> Assistir</a>
+        <a href="#"><i class="fa fa-plus" aria-hidden="true"></i> Minha Lista</a>
+      </div>
+    </div>
+    <div class="content coraline" onClick="changeBg('coraline.png', 'coraline');">
+      <img src="assets/the-coraline-title.png" alt="Movie Name" class="movie-title"/>
+      <h4>
+        <span>2009</span><span><i>10+</i></span><span>1h 40min</span><span>Terror</span>
+      </h4>
+      <p>Enquanto explora sua nova casa à noite, a pequena Coraline descobre uma porta secreta que contém um mundo parecido com o dela, porém melhor em muitas maneiras. Todos têm botões no lugar dos olhos, os pais são carinhosos e os sonhos de Coraline viram realidade por lá. Ela se encanta com essa descoberta, mas logo percebe que segredos estranhos estão em ação: uma outra mãe e o resto de sua família tentam mantê-la eternamente nesse mundo paralelo.</p>
+      <div class="button">
+        <a href="#"><i class="fa fa-play" aria-hidden="true"></i> Assistir</a>
+        <a href="#"><i class="fa fa-plus" aria-hidden="true"></i> Minha Lista</a>
+      </div>
+      </div>
+    <div class="carousel-box">
+      <div class="carousel">
+        <div class="carousel-item" onClick="changeBg('the-dark-knight.jpg', 'the-dark-knight');">
+          <img src="movies/the-dark-night-cover.jpg" alt="">
+        </div>
+        <div class="carousel-item" onClick="changeBg('harry potter.jpg', 'bg-65');">
+          <img src="movies/harry potter cover.jpg" alt="">
+        </div>
+        <div class="carousel-item" onClick="changeBg('kung fu panda.jpg', 'the-covenant');">
+          <img src="movies/kung fu panda-cover.jpg" alt="">
+        </div>
+        <div class="carousel-item" onClick="changeBg('aladdin.jpg', 'aladdin');">
+          <img src="movies/aladdin-cover.jpg" alt="">
+        </div>
+        <div class="carousel-item" onClick="changeBg('coraline.jpg', 'coraline');">
+          <img src="movies/coraline-cover.jpg" alt="">
+        </div>
+      </div>
+    </div>
+      <a href="#" class="play" onClick="toggleVideo();"><i class="fa fa-play-circle-o" aria-hidden="true"></i> Assistir Trailer</a>
+      <ul class="sci">
+      <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+      <li><a href="#"><i class="fa fa-youtube-play" aria-hidden="true"></i></a></li>
+      <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+    </div>
+    </ul>
+  </div>
+  <div class="trailer">
+    <video src="assets/the-dark-knight-video.mp4" muted controls="true" autoplay=""true></video>
+    <img class="close" src="assets/close.png"alt="" onClick="toggleVideo();">
+  </div>
+  <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  <script src="script.js"></script>
+  <script>
+    $(document).ready(function(){
+      $('.carousel').carousel();
+    });
+  </script>
+</body>
+</html>
